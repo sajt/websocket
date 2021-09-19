@@ -32,10 +32,10 @@ export default {
     }
   },
   mounted() {
-    let connection = new WebSocket('ws://localhost:3001/');
-    connection.onmessage = (event) => {
-      this.time = event.data;
-    }
+    setInterval(() => {
+    let time = new Date();
+    this.time = time.toLocaleString('hu-HU');
+  }, 1000);
   }
 }
 </script>

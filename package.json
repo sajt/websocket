@@ -4,19 +4,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "dev-server": "nodemon server.js & vite",
-    "server": "node server.js"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "vue": "^3.2.6",
-    "ws": "^8.2.2"
+    "vue": "^3.2.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.6",
-    "nodemon": "^2.0.12",
     "vite": "^2.5.4"
   }
 }
