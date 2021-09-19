@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "server": "nodemon server.js & vite"
+    "dev-server": "nodemon server.js & vite",
+    "server": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
