@@ -1,8 +1,8 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <h1>{{time}}</h1>
-  <h2>{{color}}</h2>
-  <h3>{{backgroundColor}}</h3>
+  <h2>Text color{{color}}</h2>
+  <h3>Background color{{backgroundColor}}</h3>
 </template>
 <script>
 export default {
